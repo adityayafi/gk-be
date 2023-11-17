@@ -11,6 +11,9 @@
     "db:seed": "npx sequelize-cli db:seed:all",
     "db:seed-undo": "npx sequelize-cli db:seed:undo"
   },
+  "engines": {
+    "node": "^14.x"
+  },
   "dependencies": {
     "@sequelize/core": "^7.0.0-alpha.29",
     "bcrypt": "^5.1.1",
