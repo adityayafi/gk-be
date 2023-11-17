@@ -62,7 +62,7 @@ db.sequelize
     )
   .catch((err) => console.error(`Unable to connect to the database: ${err}`))
 
-app.listen(PORT, () => console.log(`Server Listening on http://localhost:${PORT}`))
+// app.listen(PORT, () => console.log(`Server Listening on http://localhost:${PORT}`))
 
 // error handler
 app.use(function(err, req, res, next) {
